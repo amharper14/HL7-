@@ -1,0 +1,56 @@
+{
+  "resourceType": "Patient",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient|6.1.0"
+    ]
+  },
+  "identifier": [
+    {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record Number"
+          }
+        ]
+      },
+      "system": "http://example.org/fhir/mrn",
+      "value": "MRN-48213907"
+    }
+  ],
+  "active": true,
+  "name": [
+    {
+      "use": "official",
+      "family": "Okonkwo-Reyes",
+      "given": [
+        "Talia",
+        "June"
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "555-014-2297",
+      "use": "home"
+    }
+  ],
+  "gender": "female",
+  "birthDate": "1991-03-14",
+  "address": [
+    {
+      "use": "home",
+      "line": [
+        "48 Larkspur Hollow Rd"
+      ],
+      "city": "Asheville",
+      "state": "NC",
+      "postalCode": "28801",
+      "country": "US"
+    }
+  ]
+}
