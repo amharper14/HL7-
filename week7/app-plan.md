@@ -7,7 +7,7 @@ Working notes for the Week 7 build tasks (nothing to submit). All patient detail
 ## Task 1: Fork the starter app
 
 - Starter repository: [samoanGuy7/Smart-App](https://github.com/samoanGuy7/Smart-App)
-- My fork: `github.com/amharper14/caregiver-med-review` *(name chosen to match the app idea)*
+- My fork: [amharper14/Caregiver-med-review](https://github.com/amharper14/Caregiver-med-review) ✅ created
 - Done when: I can open my own fork on GitHub. No downloading, code changes, or launching this week.
 
 **What the starter already does** (from its README):
