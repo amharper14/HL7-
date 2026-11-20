@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="640" viewBox="0 0 420 640" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="420" height="640" fill="#ffffff"/>
+  <!-- phone/app frame -->
+  <rect x="10" y="10" width="400" height="620" rx="18" fill="#f7f7f5" stroke="#333" stroke-width="2"/>
+
+  <!-- title bar -->
+  <rect x="10" y="10" width="400" height="56" rx="18" fill="#2f5d62"/>
+  <rect x="10" y="40" width="400" height="26" fill="#2f5d62"/>
+  <text x="30" y="46" font-size="22" font-weight="bold" fill="#fff">CareMeds</text>
+  <text x="390" y="46" font-size="12" fill="#dfeeea" text-anchor="end">Signed in: caregiver</text>
+
+  <!-- Patient section -->
+  <rect x="26" y="80" width="368" height="76" rx="8" fill="#fff" stroke="#999" stroke-dasharray="5 3"/>
+  <text x="38" y="98" font-size="11" fill="#777" letter-spacing="1">PATIENT  ·  Patient</text>
+  <text x="38" y="122" font-size="18" font-weight="bold" fill="#222">Rosalind Avery</text>
+  <text x="38" y="143" font-size="13" fill="#444">Born 1948-05-02  ·  Age 78</text>
+
+  <!-- Allergies section -->
+  <rect x="26" y="168" width="368" height="104" rx="8" fill="#fff4f2" stroke="#c0392b" stroke-dasharray="5 3"/>
+  <text x="38" y="186" font-size="11" fill="#a33" letter-spacing="1">ALLERGIES  ·  AllergyIntolerance</text>
+  <rect x="38" y="196" width="344" height="30" rx="5" fill="#fbdad5"/>
+  <text x="48" y="216" font-size="14" font-weight="bold" fill="#222">Penicillin</text>
+  <text x="160" y="216" font-size="13" fill="#444">Hives</text>
+  <rect x="300" y="203" width="74" height="18" rx="9" fill="#c0392b"/>
+  <text x="337" y="216" font-size="11" fill="#fff" text-anchor="middle" font-weight="bold">HIGH</text>
+  <rect x="38" y="232" width="344" height="30" rx="5" fill="#fff"/>
+  <text x="48" y="252" font-size="14" font-weight="bold" fill="#222">Sulfa drugs</text>
+  <text x="160" y="252" font-size="13" fill="#444">Rash</text>
+  <rect x="300" y="239" width="74" height="18" rx="9" fill="#e9c46a"/>
+  <text x="337" y="252" font-size="11" fill="#333" text-anchor="middle" font-weight="bold">LOW</text>
+
+  <!-- Medications section -->
+  <rect x="26" y="284" width="368" height="292" rx="8" fill="#fff" stroke="#999" stroke-dasharray="5 3"/>
+  <text x="38" y="302" font-size="11" fill="#777" letter-spacing="1">ACTIVE MEDICATIONS  ·  MedicationRequest</text>
+
+  <g font-size="13" fill="#444">
+    <line x1="38" y1="314" x2="382" y2="314" stroke="#ddd"/>
+    <text x="38" y="334" font-size="15" font-weight="bold" fill="#222">Lisinopril 10 mg</text>
+    <text x="38" y="352">Once daily</text>
+    <text x="382" y="352" text-anchor="end" fill="#777">Dr. Kim · 2026-08-14</text>
+
+    <line x1="38" y1="378" x2="382" y2="378" stroke="#ddd"/>
+    <text x="38" y="398" font-size="15" font-weight="bold" fill="#222">Metformin 500 mg</text>
+    <text x="38" y="416">Twice daily with meals</text>
+    <text x="382" y="416" text-anchor="end" fill="#777">Dr. Kim · 2026-06-03</text>
+
+    <line x1="38" y1="442" x2="382" y2="442" stroke="#ddd"/>
+    <text x="38" y="462" font-size="15" font-weight="bold" fill="#222">Atorvastatin 20 mg</text>
+    <text x="38" y="480">At bedtime</text>
+    <text x="382" y="480" text-anchor="end" fill="#777">Dr. Kim · 2026-06-03</text>
+
+    <line x1="38" y1="506" x2="382" y2="506" stroke="#ddd"/>
+    <text x="38" y="526" font-size="15" font-weight="bold" fill="#222">Levothyroxine 50 mcg</text>
+    <text x="38" y="544">Every morning, empty stomach</text>
+    <text x="382" y="544" text-anchor="end" fill="#777">Dr. Patel · 2025-11-20</text>
+  </g>
+  <text x="38" y="566" font-size="10" fill="#999">name · dose instructions · prescriber (requester) · date written</text>
+
+  <!-- Later button (greyed) -->
+  <rect x="26" y="588" width="368" height="30" rx="15" fill="#eee" stroke="#bbb" stroke-dasharray="4 3"/>
+  <text x="210" y="608" font-size="12" fill="#888" text-anchor="middle">[ Later ]  Share at check-in · Show stopped meds</text>
+</svg>
