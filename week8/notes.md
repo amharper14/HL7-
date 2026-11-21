@@ -26,7 +26,10 @@ Working notes for the Week 8 build tasks (nothing to submit). The patient shown 
 
 That's the full Week 5 flow in action: launch → authorize → token → read the **Patient** resource → display it.
 
-**My own fork:** `amharper14/Caregiver-med-review` exists, but GitHub Pages isn't turned on yet, so `amharper14.github.io/Caregiver-med-review/` shows "Site not found." To-do before Week 9: **Settings → Pages → Deploy from a branch → main → /(root) → Save.**
+**My own fork:** GitHub Pages turned on (Deploy from a branch → main → /(root)) on 2026-11-21. Live at:
+- App: https://amharper14.github.io/Caregiver-med-review/
+- Sign-in: https://amharper14.github.io/Caregiver-med-review/launch.html (reaches the sandbox Patient Login)
+- Health check: https://amharper14.github.io/Caregiver-med-review/health.html ✅
 
 ---
 
